@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a4ff0462-7446-40ac-91f3-42363ec49584}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{125bd922-6ef5-4180-8139-8db15ca208e8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{bfef8e7f-8379-4ace-b714-56df3a5dc6c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXFFile">
+      <UniqueIdentifier>{cc58bec0-bd86-4ff9-8cb5-b22f3b146718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXFFile\Base">
+      <UniqueIdentifier>{9e7c5f28-3d71-43c9-8767-701be7a8e63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXFFile\Read">
+      <UniqueIdentifier>{bcb69a43-85e0-4055-9cc7-7c771ddb8b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXFFile\Write">
+      <UniqueIdentifier>{ab3e819f-dcd4-49ca-a0d0-7e7848056974}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CadLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrwIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemDrw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DimView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\TextView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\View.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="DXFFile\Base\DXFBase.cpp">
+      <Filter>DXFFile\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DXFFile\Read\DRBlocks.cpp">
+      <Filter>DXFFile\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="DXFFile\Read\DREntities.cpp">
+      <Filter>DXFFile\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="DXFFile\Read\DRTables.cpp">
+      <Filter>DXFFile\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="DXFFile\Read\DXFRead.cpp">
+      <Filter>DXFFile\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="DXFFile\Write\DWBlocks.cpp">
+      <Filter>DXFFile\Write</Filter>
+    </ClCompile>
+    <ClCompile Include="DXFFile\Write\DWEntities.cpp">
+      <Filter>DXFFile\Write</Filter>
+    </ClCompile>
+    <ClCompile Include="DXFFile\Write\DWTables.cpp">
+      <Filter>DXFFile\Write</Filter>
+    </ClCompile>
+    <ClCompile Include="DXFFile\Write\DXFWrite.cpp">
+      <Filter>DXFFile\Write</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DrawingDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrwIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemDrw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Colors.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\DimView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\TextView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\View.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFFile\Base\DXFBase.h">
+      <Filter>DXFFile\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFFile\Base\SimpleList.h">
+      <Filter>DXFFile\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFFile\Read\DRBlocks.h">
+      <Filter>DXFFile\Read</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFFile\Read\DREntities.h">
+      <Filter>DXFFile\Read</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFFile\Read\DRTables.h">
+      <Filter>DXFFile\Read</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFFile\Read\DXFRead.h">
+      <Filter>DXFFile\Read</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFFile\Write\DWBlocks.h">
+      <Filter>DXFFile\Write</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFFile\Write\DWEntities.h">
+      <Filter>DXFFile\Write</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFFile\Write\DWTables.h">
+      <Filter>DXFFile\Write</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFFile\Write\DXFWrite.h">
+      <Filter>DXFFile\Write</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CadLib.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
