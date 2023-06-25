@@ -1,0 +1,19 @@
+﻿  StdAfx.cpp
+  CadLib.cpp
+C:\Users\User\Desktop\DXFViewerNew\DXF Viewer\CadLib.cpp(373,7): warning C4101: 'result': unreferenced local variable
+C:\Users\User\Desktop\DXFViewerNew\DXF Viewer\CadLib.cpp(576,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\Desktop\DXFViewerNew\DXF Viewer\CadLib.cpp(600,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\Desktop\DXFViewerNew\DXF Viewer\CadLib.cpp(614,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\Desktop\DXFViewerNew\DXF Viewer\CadLib.cpp(627,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\Desktop\DXFViewerNew\DXF Viewer\CadLib.cpp(771,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\Desktop\DXFViewerNew\DXF Viewer\CadLib.cpp(860,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\Desktop\DXFViewerNew\DXF Viewer\CadLib.cpp(883,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\Desktop\DXFViewerNew\DXF Viewer\CadLib.cpp(919,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  DrawingView.cpp
+  DXF Viewer.cpp
+C:\Users\User\Desktop\DXFViewerNew\DXF Viewer\DXF Viewer.cpp(52,16): warning C4244: 'initializing': conversion from 'INT_PTR' to 'int', possible loss of data
+C:\Users\User\Desktop\DXFViewerNew\DXF Viewer\DXF Viewer.cpp(45,2): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+  DXF ViewerDlg.cpp
+C:\Users\User\Desktop\DXFViewerNew\DXF Viewer\DXF ViewerDlg.cpp(261,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  DXF Viewer.vcxproj -> C:\Users\User\Desktop\DXFViewerNew\x64\Debug\DXFViewer.exe
