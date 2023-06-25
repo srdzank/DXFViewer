@@ -1,7 +1,6 @@
 <p align="center">
   <h3 align="center">DXF Viewer</h3>
   <p align="center">
-    DXF文件浏览器
 </p>
  
 ![ScreenShot](/ScreenShot.png)
